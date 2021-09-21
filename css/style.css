@@ -1,0 +1,207 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Consolas;
+    }
+    
+    body {
+        font-family: Georgia, 'Times New Roman', Times;
+        color: black;
+        font-size: 1.2rem;
+        line-height: 1.5em;
+    }
+    
+    p {
+        margin-bottom: 1.5em;
+    }
+    
+    .contenedor {
+        width: 90%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+    
+    .cabezera {
+        background-color: rgba(77, 131, 156, 0.849);
+        border-radius: 20px;
+    }
+    
+    .logo {
+        text-decoration: none;
+        letter-spacing: 5px;
+        font-size: 2.5em;
+        color: black;
+    }
+    
+    .separar-logo {
+        display: flex;
+        justify-content: space-between;
+        /* separar logo y href en cada lado */
+        align-items: center;
+        /* centrabado de arriba y abajo */
+    }
+    
+    .navegacion ul li {
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        display: inline-block;
+        /* alinear href  */
+    }
+    
+    .navegacion ul li a {
+        text-decoration: none;
+        display: block;
+        padding: 0.5rem 0.5rem;
+        /* href en formato bloques y separarlos de lado a lado */
+        transition: all 0.4s linear;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    .navegacion ul li a:hover {
+        background: rgb(3, 78, 218);
+        /* darle forma al momento de pasar el cursor */
+        font-style: italic;
+        color: azure;
+    }
+    
+    .piepagina {
+        background: rgb(223, 204, 204);
+        color: rgb(0, 0, 0);
+        padding: 2rem;
+        text-align: center;
+        margin-top: 5rem;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        line-height: 0.1em;
+        align-items: center;
+    }
+    
+    h2 {
+        padding: 2rem 0;
+    }
+    
+    h3 {
+        padding: 2rem 0;
+    }
+    
+    .fondotext1 h2 {
+        padding: 1rem 0;
+        font-family: Consolas;
+    }
+    
+    .fondo {
+        background-image: url("../img/fondo.png");
+        background-repeat: no-repeat;
+        /* permitir o que no se repita una imagen */
+        width: 100%;
+        height: 100%;
+        opacity: 100%;
+        padding: 50px 0;
+        /* capacidad de la imagen */
+        -webkit-background-size: 100% 100%;
+        /*Safari 3.0*/
+        -moz-background-size: 100% 100%;
+        /*Gecko 1.9.2 (Firefox 3.6)*/
+        -o-background-size: 100% 100%;
+        /*Opera 9.5*/
+        background-size: 100% 100%;
+    }
+    
+    .fondo1 {
+        background-image: url("../img/fondo1.jpg");
+        background-repeat: no-repeat;
+        /* permitir o que no se repita una imagen */
+        width: 100%;
+        height: 100%;
+        opacity: 100%;
+        padding: 50px 0;
+        /* capacidad de la imagen */
+        -webkit-background-size: 100% 100%;
+        /*Safari 3.0*/
+        -moz-background-size: 100% 100%;
+        /*Gecko 1.9.2 (Firefox 3.6)*/
+        -o-background-size: 100% 100%;
+        /*Opera 9.5*/
+        background-size: 100% 100%;
+    }
+    
+    .fondotext {
+        background-color: rgb(39, 88, 88);
+        color: white;
+        width: 50%;
+        max-width: 1500px;
+        margin: 0 auto;
+        font-family: Consolas;
+        font-size: 20px;
+        text-align: justify;
+        padding: 2em;
+        border-radius: 50px;
+    }
+    
+    .fondotext1 {
+        /* background-color: rgb(39, 88, 88); */
+        color: rgb(139, 14, 10);
+        width: 80%;
+        max-width: 2000px;
+        margin: 0 auto;
+        font-family: Consolas;
+        font-size: 40px;
+        text-align: center;
+        padding: 3rem;
+        border-radius: 20px;
+    }
+    
+    .tipostext {
+        text-align: justify;
+    }
+    
+    .tipostext ul li {
+        font-size: 20px;
+    }
+    
+    .tipostext h2 {
+        color: rgb(0, 117, 117);
+    }
+    
+    .fondotext2 {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 50px;
+    }
+    
+    .perfil {
+        height: 10em;
+        width: 10em;
+        border-radius: 80%;
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+    }
+    
+    .contacto {
+        text-align: center;
+    }
+    
+    .redes img {
+        height: 6em;
+        width: 6em;
+    }
+    
+    .contacto h3 {
+        padding: 1rem 0;
+        color: rgb(8, 82, 143);
+    }
+    
+    .boton {
+        background-color: black;
+        color: beige;
+        font-family: Consolas;
+        font-size: 25px;
+        text-align: center;
+        padding: 1rem 1rem;
+        border-radius: 15px;
+    }
